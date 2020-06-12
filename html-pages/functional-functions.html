@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <title>JavaScript Function Library</title>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+      <link
+         rel="stylesheet"
+         href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+         crossorigin="anonymous"
+      />
+      <link rel="stylesheet" href="/style.css" />
+   </head>
+
+   <body>
+      <div class="container">
+         <div class="row mt-2">
+            <div class="col-12">
+               <h1 class="d-flex justify-content-center">
+                  JavaScript Functions: Functional
+               </h1>
+               <p class="text-center lead mb-4">
+                  <span id="totalFunctionNum"></span> functions documented
+               </p>
+
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>implementFilter</b> - filter out the numbers that are
+                     divisble by the input <br />[2, 4, 7, 23, 64, 534, 7, 45,
+                     265]
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="number"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>sliceArray</b> - slice the array of animals in the
+                     designated start and end using their index number as
+                     reference <br />
+                     [ goat, dog, bird, rat, penguin, tiger, elephant, ]
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="begin"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="end"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>removeWithSlice</b> - remove parts of the array of beer
+                     with the designated start and end using their index number
+                     as reference <br />
+                     [kirin, corona, modelo, sapporo, pabst, stella]
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="begin"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="end"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>concatArrays</b> - input two arrays and add them
+                     together using the concat method
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array 1"
+                     />
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="array 2"
+                     />
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>addWithConcat</b> - add a beer of your preference to the
+                     end of this array of beer names<br />
+                     [kirin, corona, modelo, sapporo, pabst, stella]
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="beer"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>getAverageRating</b> - get average rating of movies for
+                     the director inputed (either James Cameron or Christopher
+                     Nolan)
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="director name"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>squareArray</b> - input an array of numbers to have only
+                     the positive integers in that array squared
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        value="[2, 5.4, -6, 2.7, 6, 87, -4.5]"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>sortAlphabetically</b> - input a beer and it will sort
+                     it alphabetically within the previously used beer list
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        placeholder="beer"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>splitStringIntoArray</b> - input a string to have it
+                     split into an array of words
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        value="string into an array"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>combineArrayIntoString</b> - combine contents in an
+                     array into a string
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        value="[array, into, string]"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>urlSlug</b> - return a hyphenated version of your titles
+                     for the URL
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        value="Combining all of these words"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+               <!-- start column -->
+               <div class="col-12 col-lg-8 offset-lg-2 mb-5">
+                  <p class="name">
+                     <b>checkPositive</b> - input an array of numbers to see if
+                     they contain all positive numbers.
+                  </p>
+                  <pre style="display: none;"><code></code></pre>
+                  <div class="actions float-right">
+                     <input
+                        type="text"
+                        class="form-control inline-action"
+                        value="[2, 5.4, -6, 2.7, 6, 87, -4.5]"
+                     />
+
+                     <button class="btn btn-primary inline-action">
+                        Run
+                     </button>
+                  </div>
+                  <div class="clearfix mb-3"></div>
+                  <div class="alert alert-primary" style="display: none;"></div>
+                  <div class="alert alert-danger" style="display: none;"></div>
+               </div>
+               <!-- end column -->
+            </div>
+         </div>
+      </div>
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+         defer
+      ></script>
+      <script src="/functions.js" defer></script>
+      <script src="/utils.js" defer></script>
+      <script src="/ui.js" defer></script>
+   </body>
+</html>
