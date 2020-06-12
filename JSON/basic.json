@@ -1,0 +1,20 @@
+[
+   {
+      "name": "add",
+      "desc": "Add two values together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 100
+   },
+   {
+      "name": "subtract",
+      "desc": "subtract two values subtract two values subtract two values",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 101
+   }
+]
