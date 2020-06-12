@@ -4,6 +4,7 @@ const { getComponents, getName, getDesc, trim, getInputs } = require("./regex");
 const sourceFile = String(fs.readFileSync("html-pages/basic-functions.html"));
 
 const components = getComponents(sourceFile);
+//console.log(components);
 
 const componentObjs = components.map((component) => {
    return {

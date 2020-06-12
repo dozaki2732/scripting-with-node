@@ -1,20 +1,191 @@
 [
    {
-      "name": "add",
-      "desc": "Add two values together",
-      "inputs": 2,
+      "name": "stand",
+      "desc": "add your item and stand in line please :-) <p class=\"text-muted\" > noodles, beer, eggs, fruit, </p>",
+      "inputs": 1,
       "type": "basic",
       "typeNum": 100,
       "isFavorite": false,
       "order": 100
    },
    {
-      "name": "subtract",
-      "desc": "subtract two values subtract two values subtract two values",
-      "inputs": 2,
+      "name": "list",
+      "desc": "add to the grocery list ( item + quantity) <p class=\"text-muted\" > beer: 3, lettuce: 2, soap: 4, </p>",
+      "inputs": 1,
       "type": "basic",
       "typeNum": 100,
       "isFavorite": false,
       "order": 101
+   },
+   {
+      "name": "unshift",
+      "desc": "unshift the previously shifted list <p class=\"text-muted\" > Coffee, Cherries, Snacks </p>",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 102
+   },
+   {
+      "name": "shift",
+      "desc": "shift a food item listed <p class=\"text-muted\" > Eggs, Coffee, Cherries, Snacks </p>",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 103
+   },
+   {
+      "name": "pop",
+      "desc": "pop a beer that is listed. <p class=\"text-muted\" > Modelo, Asahi, Kirin, Pacifico </p>",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 104
+   },
+   {
+      "name": "push",
+      "desc": "Push a beer into the list. <p class=\"text-muted\" > Modelo, Asahi, Kirin, </p>",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 105
+   },
+   {
+      "name": "findSecondToLast",
+      "desc": "find the second to last letter of the word",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 106
+   },
+   {
+      "name": "findLast",
+      "desc": "find the last letter of the word",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 107
+   },
+   {
+      "name": "findFifth",
+      "desc": "find the fifth letter of the word",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 108
+   },
+   {
+      "name": "findFirst",
+      "desc": "find the first letter of the word",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 109
+   },
+   {
+      "name": "measure",
+      "desc": "measure the length of the word",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 110
+   },
+   {
+      "name": "construct",
+      "desc": "construct the sentence to your fitting <p class=\"text-muted\" > My favorite beer is \"___\" , and I love it deeply.</p>",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 111
+   },
+   {
+      "name": "concatenate",
+      "desc": "concatenate the two inputs (using +=)",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 112
+   },
+   {
+      "name": "concatenate",
+      "desc": "concatenate the two inputs",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 113
+   },
+   {
+      "name": "multiply",
+      "desc": "multiply two decimals together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 114
+   },
+   {
+      "name": "decrement",
+      "desc": "decrease the number by one number",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 115
+   },
+   {
+      "name": "increment",
+      "desc": "increase the number by 1 number",
+      "inputs": 1,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 116
+   },
+   {
+      "name": "divide",
+      "desc": "divide the first number by the second number",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 117
+   },
+   {
+      "name": "multiply",
+      "desc": "multiply two numbers together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 118
+   },
+   {
+      "name": "subtract",
+      "desc": "Subtract the first number from the second numner",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 119
+   },
+   {
+      "name": "add",
+      "desc": "Add two numbers together",
+      "inputs": 2,
+      "type": "basic",
+      "typeNum": 100,
+      "isFavorite": false,
+      "order": 120
    }
 ]
