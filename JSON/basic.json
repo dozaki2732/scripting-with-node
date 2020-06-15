@@ -1,7 +1,7 @@
 [
    {
       "name": "stand",
-      "desc": "add your item and stand in line please :-) <p class=\"text-muted\" > noodles, beer, eggs, fruit, </p>",
+      "desc": "add your item and stand in line please :-) [ noodles, beer, eggs, fruit, ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -10,7 +10,7 @@
    },
    {
       "name": "list",
-      "desc": "add to the grocery list ( item + quantity) <p class=\"text-muted\" > beer: 3, lettuce: 2, soap: 4, </p>",
+      "desc": "add to the grocery list ( item + quantity) [ beer: 3, lettuce: 2, soap: 4, ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -19,7 +19,7 @@
    },
    {
       "name": "unshift",
-      "desc": "unshift the previously shifted list <p class=\"text-muted\" > Coffee, Cherries, Snacks </p>",
+      "desc": "unshift the previously shifted list [ Coffee, Cherries, Snacks ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -28,7 +28,7 @@
    },
    {
       "name": "shift",
-      "desc": "shift a food item listed <p class=\"text-muted\" > Eggs, Coffee, Cherries, Snacks </p>",
+      "desc": "shift a food item listed [ Eggs, Coffee, Cherries, Snacks ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -37,7 +37,7 @@
    },
    {
       "name": "pop",
-      "desc": "pop a beer that is listed. <p class=\"text-muted\" > Modelo, Asahi, Kirin, Pacifico </p>",
+      "desc": "pop a beer that is listed. [ Modelo, Asahi, Kirin, Pacifico ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -46,7 +46,7 @@
    },
    {
       "name": "push",
-      "desc": "Push a beer into the list. <p class=\"text-muted\" > Modelo, Asahi, Kirin, </p>",
+      "desc": "Push a beer into the list. [ Modelo, Asahi, Kirin ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -100,7 +100,7 @@
    },
    {
       "name": "construct",
-      "desc": "construct the sentence to your fitting <p class=\"text-muted\" > My favorite beer is \"___\" , and I love it deeply.</p>",
+      "desc": "construct the sentence to your fitting. [My favorite beer is \"___\" , and I love it deeply.]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -145,7 +145,7 @@
    },
    {
       "name": "increment",
-      "desc": "increase the number by 1 number",
+      "desc": "increase the number by 1",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -172,7 +172,7 @@
    },
    {
       "name": "subtract",
-      "desc": "Subtract the first number from the second numner",
+      "desc": "Subtract the first number from the second number",
       "inputs": 2,
       "type": "basic",
       "typeNum": 100,

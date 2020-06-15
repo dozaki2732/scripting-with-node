@@ -64,7 +64,7 @@
    },
    {
       "name": "addWithConcat",
-      "desc": "add a beer of your preference to the end of this array of beer names<br /> [kirin, corona, modelo, sapporo, pabst, stella]",
+      "desc": "add a beer of your preference to the end of this array of beer names. [kirin, corona, modelo, sapporo, pabst, stella]",
       "inputs": 1,
       "type": "functional",
       "typeNum": 300,
@@ -82,7 +82,7 @@
    },
    {
       "name": "removeWithSlice",
-      "desc": "remove parts of the array of beer with the designated start and end using their index number as reference <br /> [kirin, corona, modelo, sapporo, pabst, stella]",
+      "desc": "remove parts of the array of beer with the designated start and end using their index number as reference. [kirin, corona, modelo, sapporo, pabst, stella]",
       "inputs": 2,
       "type": "functional",
       "typeNum": 300,
@@ -91,7 +91,7 @@
    },
    {
       "name": "sliceArray",
-      "desc": "slice the array of animals in the designated start and end using their index number as reference <br /> [ goat, dog, bird, rat, penguin, tiger, elephant, ]",
+      "desc": "slice the array of animals in the designated start and end using their index number as reference. [ goat, dog, bird, rat, penguin, tiger, elephant, ]",
       "inputs": 2,
       "type": "functional",
       "typeNum": 300,
@@ -100,7 +100,7 @@
    },
    {
       "name": "implementFilter",
-      "desc": "filter out the numbers that are divisble by the input <br />[2, 4, 7, 23, 64, 534, 7, 45, 265]",
+      "desc": "filter out the numbers that are divisble by the input. [2, 4, 7, 23, 64, 534, 7, 45, 265]",
       "inputs": 1,
       "type": "functional",
       "typeNum": 300,

@@ -19,7 +19,7 @@
    },
    {
       "name": "addWithSplice",
-      "desc": "add numbers from the list using splice <br /> 1, 2, 3, 4, 5, 5, 7, 8, 9",
+      "desc": "add numbers from the list using splice. 1, 2, 3, 4, 5, 5, 7, 8, 9",
       "inputs": 3,
       "type": "intermediate",
       "typeNum": 200,
@@ -28,7 +28,7 @@
    },
    {
       "name": "removeWithSplice",
-      "desc": "remove numbers from the list using splice <br /> 1, 2, 3, 4, 5, 6, 7, 8, 9",
+      "desc": "remove numbers from the list using splice. 1, 2, 3, 4, 5, 6, 7, 8, 9",
       "inputs": 2,
       "type": "intermediate",
       "typeNum": 200,
@@ -46,7 +46,7 @@
    },
    {
       "name": "lookUpProfile",
-      "desc": "Look at the list of name and properties. Find out someones profile by putting in a first name and then a property. <br /> NAMES: Tatsuro, Jim, Nat, Sante, <br />PROPERTIES: lastName, number, likes",
+      "desc": "Look at the list of name and properties. Find out someones profile by putting in a first name and then a property. NAMES: Tatsuro, Jim, Nat, Sante. PROPERTIES: lastName, number, likes",
       "inputs": 2,
       "type": "intermediate",
       "typeNum": 200,

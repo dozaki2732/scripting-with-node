@@ -1,7 +1,7 @@
 [
    {
       "name": "stand",
-      "desc": "add your item and stand in line please :-) <p class=\"text-muted\" > noodles, beer, eggs, fruit, </p>",
+      "desc": "add your item and stand in line please :-) [ noodles, beer, eggs, fruit, ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -10,7 +10,7 @@
    },
    {
       "name": "list",
-      "desc": "add to the grocery list ( item + quantity) <p class=\"text-muted\" > beer: 3, lettuce: 2, soap: 4, </p>",
+      "desc": "add to the grocery list ( item + quantity) [ beer: 3, lettuce: 2, soap: 4, ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -19,7 +19,7 @@
    },
    {
       "name": "unshift",
-      "desc": "unshift the previously shifted list <p class=\"text-muted\" > Coffee, Cherries, Snacks </p>",
+      "desc": "unshift the previously shifted list [ Coffee, Cherries, Snacks ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -28,7 +28,7 @@
    },
    {
       "name": "shift",
-      "desc": "shift a food item listed <p class=\"text-muted\" > Eggs, Coffee, Cherries, Snacks </p>",
+      "desc": "shift a food item listed [ Eggs, Coffee, Cherries, Snacks ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -37,7 +37,7 @@
    },
    {
       "name": "pop",
-      "desc": "pop a beer that is listed. <p class=\"text-muted\" > Modelo, Asahi, Kirin, Pacifico </p>",
+      "desc": "pop a beer that is listed. [ Modelo, Asahi, Kirin, Pacifico ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -46,7 +46,7 @@
    },
    {
       "name": "push",
-      "desc": "Push a beer into the list. <p class=\"text-muted\" > Modelo, Asahi, Kirin, </p>",
+      "desc": "Push a beer into the list. [ Modelo, Asahi, Kirin ]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -100,7 +100,7 @@
    },
    {
       "name": "construct",
-      "desc": "construct the sentence to your fitting <p class=\"text-muted\" > My favorite beer is \"___\" , and I love it deeply.</p>",
+      "desc": "construct the sentence to your fitting. [My favorite beer is \"___\" , and I love it deeply.]",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -145,7 +145,7 @@
    },
    {
       "name": "increment",
-      "desc": "increase the number by 1 number",
+      "desc": "increase the number by 1",
       "inputs": 1,
       "type": "basic",
       "typeNum": 100,
@@ -172,7 +172,7 @@
    },
    {
       "name": "subtract",
-      "desc": "Subtract the first number from the second numner",
+      "desc": "Subtract the first number from the second number",
       "inputs": 2,
       "type": "basic",
       "typeNum": 100,
@@ -208,7 +208,7 @@
    },
    {
       "name": "addWithSplice",
-      "desc": "add numbers from the list using splice <br /> 1, 2, 3, 4, 5, 5, 7, 8, 9",
+      "desc": "add numbers from the list using splice. 1, 2, 3, 4, 5, 5, 7, 8, 9",
       "inputs": 3,
       "type": "intermediate",
       "typeNum": 200,
@@ -217,7 +217,7 @@
    },
    {
       "name": "removeWithSplice",
-      "desc": "remove numbers from the list using splice <br /> 1, 2, 3, 4, 5, 6, 7, 8, 9",
+      "desc": "remove numbers from the list using splice. 1, 2, 3, 4, 5, 6, 7, 8, 9",
       "inputs": 2,
       "type": "intermediate",
       "typeNum": 200,
@@ -235,7 +235,7 @@
    },
    {
       "name": "lookUpProfile",
-      "desc": "Look at the list of name and properties. Find out someones profile by putting in a first name and then a property. <br /> NAMES: Tatsuro, Jim, Nat, Sante, <br />PROPERTIES: lastName, number, likes",
+      "desc": "Look at the list of name and properties. Find out someones profile by putting in a first name and then a property. NAMES: Tatsuro, Jim, Nat, Sante. PROPERTIES: lastName, number, likes",
       "inputs": 2,
       "type": "intermediate",
       "typeNum": 200,
@@ -316,7 +316,7 @@
    },
    {
       "name": "addWithConcat",
-      "desc": "add a beer of your preference to the end of this array of beer names<br /> [kirin, corona, modelo, sapporo, pabst, stella]",
+      "desc": "add a beer of your preference to the end of this array of beer names. [kirin, corona, modelo, sapporo, pabst, stella]",
       "inputs": 1,
       "type": "functional",
       "typeNum": 300,
@@ -334,7 +334,7 @@
    },
    {
       "name": "removeWithSlice",
-      "desc": "remove parts of the array of beer with the designated start and end using their index number as reference <br /> [kirin, corona, modelo, sapporo, pabst, stella]",
+      "desc": "remove parts of the array of beer with the designated start and end using their index number as reference. [kirin, corona, modelo, sapporo, pabst, stella]",
       "inputs": 2,
       "type": "functional",
       "typeNum": 300,
@@ -343,7 +343,7 @@
    },
    {
       "name": "sliceArray",
-      "desc": "slice the array of animals in the designated start and end using their index number as reference <br /> [ goat, dog, bird, rat, penguin, tiger, elephant, ]",
+      "desc": "slice the array of animals in the designated start and end using their index number as reference. [ goat, dog, bird, rat, penguin, tiger, elephant, ]",
       "inputs": 2,
       "type": "functional",
       "typeNum": 300,
@@ -352,7 +352,7 @@
    },
    {
       "name": "implementFilter",
-      "desc": "filter out the numbers that are divisble by the input <br />[2, 4, 7, 23, 64, 534, 7, 45, 265]",
+      "desc": "filter out the numbers that are divisble by the input. [2, 4, 7, 23, 64, 534, 7, 45, 265]",
       "inputs": 1,
       "type": "functional",
       "typeNum": 300,
@@ -469,7 +469,7 @@
    },
    {
       "name": "largestOfFour",
-      "desc": "return an array consisting of the largest number from each sub-array. <br /> example : [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]",
+      "desc": "return an array consisting of the largest number from each sub-array. example : [[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]",
       "inputs": 1,
       "type": "algorithm",
       "typeNum": 400,
