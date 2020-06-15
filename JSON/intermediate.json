@@ -1,7 +1,7 @@
 [
    {
       "name": "typeOfVariable",
-      "desc": "input something and it will tell you what type of varible it is <br />",
+      "desc": "input something and it will tell you what type of varible it is",
       "inputs": 1,
       "type": "intermediate",
       "typeNum": 200,
@@ -10,7 +10,7 @@
    },
    {
       "name": "checkUsingIndexOf",
-      "desc": "put a brand of beer in and see if it is in the list <br />",
+      "desc": "put a brand of beer in and see if it is in the list",
       "inputs": 1,
       "type": "intermediate",
       "typeNum": 200,
